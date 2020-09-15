@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 9009
-ADD target/demo.jar demo.jar
-ENTRYPOINT ["java","-jar","/demo.jar"]
+ADD target/docker-demo.jar docker-demo.jar
+ENTRYPOINT ["java","-jar","docker-demo.jar"]
